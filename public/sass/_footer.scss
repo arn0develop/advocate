@@ -1,0 +1,28 @@
+footer {
+	padding: 40px 0px;
+	background: $about-card;
+	color: #fff;
+	.footer_img {
+		text-align: left;	
+		& .footer_txt {
+			color: $footer-text;
+			margin-top: 1rem;
+		}
+	}
+	.quick_links {
+		text-align: left;
+	}
+	.links_title {
+		font-size: 1.125rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	.right_section {
+		border-top: 1px solid #3d445b;
+	    margin: 30px 0px 0px;
+	    padding: 25px 0;
+	    & .copy {
+	    	font-size: 0.938rem;
+	    }
+	}
+}

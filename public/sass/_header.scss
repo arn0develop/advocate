@@ -1,0 +1,52 @@
+header {
+	z-index: 15;
+    position: relative;
+}
+.navbar-nav {
+	align-items: center;
+}
+ .line_links a {
+	&:after {
+		content: '';
+		width: 0;
+		height: 2px;
+		background: $main-color;
+		position: absolute;
+		top: 30px;
+		left: 0;
+		transition: .3s ease-out;
+	}
+	&:hover {
+		&:after {
+			width: 100%;
+			transition: .3s ease-out;
+		}
+	}
+}
+.router-link-exact-active {
+	color: $main-color;
+}
+.animated-icon1 span {
+	background: $main-color !important;
+}
+a {
+	color: $text-color;
+	position: relative;
+	&:hover {
+		color: $main-color;
+	}
+}
+.app_btn {
+	border: 2px solid $main-color;
+	text-transform: uppercase;
+    background: transparent !important;
+    color: $main-color;
+    font-weight: 600;
+    &:hover {
+    	color: $text-color;
+    }
+    &:focus {
+    	color: #fff;
+    	background: $main-color !important;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+* {
+	font-family: $font-stack !important;
+}
+.container {
+	max-width: 1200px;
+}
+.request_consult {
+	@include consultBtn;
+}
+.footer_links {
+	@include footerLinks;
+}
+.pages_title {
+	font-size: 3.75rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+    padding: 70px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+.about_page_titles {
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+

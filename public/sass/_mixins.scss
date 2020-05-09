@@ -1,0 +1,33 @@
+@mixin consultBtn {
+    border: 2px solid $main-color;
+	background: transparent;
+    color: #fff;
+    font-size: 1.063rem;
+    text-transform: none;
+    font-weight: bold;
+    transition: .3s ease-out;
+    &:hover {
+    	background: $main-color;
+        color: #fff;
+    	transition: .3s ease-out;
+    }
+}
+@mixin footerLinks {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 10px;
+    transition: .33s all ease;
+    & .fa-angle-right {
+        color: $main-color;
+    }
+    &:hover {
+        & .fa-angle-right {
+            transform: translate(3px);
+            transition: .33s all ease;
+        }
+    }
+}
+
+

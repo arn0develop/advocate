@@ -1,0 +1,25 @@
+.faq_title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3rem;
+}
+.accordion {
+	margin: 50px 0px;
+}
+.card[class*="border"] {
+    border-top-color: #9b9b9b;
+    border-right: none;
+    border-left: none;
+}
+.card-header {
+    background: transparent;
+	& .btn-link {
+		font-weight: bold;
+		font-size: 1.125rem;
+		text-transform: none;
+	}
+}
+.btn-link:hover, .btn-link:focus, .btn-link:active {
+    color: $main-color;
+    text-decoration: none;
+}

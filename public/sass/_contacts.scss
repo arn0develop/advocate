@@ -1,0 +1,26 @@
+.contacts_section {
+	margin: 50px 0px;
+	padding: 50px 0px;
+	.info_title {
+		font-size: 1.188rem;
+		font-weight: bold;
+	}
+	.info {
+		text-align: left;
+		.contact_links {
+			display: block;
+			padding-top: 10px;
+			&:hover {
+				text-decoration: underline;
+			} 
+			& i {
+				color: $main-color;
+				padding-right: 10px;
+			}
+		}
+	}
+	.contact_btn {
+		background: $main-color;
+		color: #fff;
+	}
+}

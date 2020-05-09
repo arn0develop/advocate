@@ -1,0 +1,40 @@
+.services_bg {
+	background-image: url(/images/lawjustice.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	height: 400px;
+}
+.services_sec {
+	margin: 50px 0px;
+	color: #fff;
+	.services_main_bg {
+		background-image: url(/images/services-main-bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right;
+		background-attachment: fixed;
+		height: auto;
+		border-top: 10px solid $main-color;
+	    border-bottom: 10px solid $main-color;
+	    padding: 50px 0px;
+	    .services_title {
+	    	font-size: 3.75rem;
+	    	font-weight: bold;
+	    }
+	    .services_sec_title {
+	    	font-size: 1.063rem;
+	    	margin-bottom: 50px;
+	    }
+	    .services_list {
+	    	text-align: left;
+		    .services_ul {
+		    	list-style-type: none;
+		    	padding-inline-start: 0px;
+		    }
+		    .services_titles {
+		    	margin: 30px 0px;
+		    }
+	    }
+	}
+}

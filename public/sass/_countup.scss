@@ -1,0 +1,25 @@
+.home_progress {
+	background-image: url(/images/countup-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    margin: 60px 0;
+    & span {
+    	display: block;
+    	text-align: center;
+    	line-height: 1.4;
+    }
+    .counter {
+    	color: #fff;
+    	font-size: 2.5rem;
+    }
+    .clients {
+    	font-size: 1rem;
+    	color: #9b9b9b;
+    }
+}
